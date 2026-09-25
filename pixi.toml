@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Louise Kluge <louise.kluge@outlook.com>"]
+channels = ["conda-forge"]
+name = "mlda-variance-reduction"
+platforms = ["osx-arm64", "osx-64", "linux-64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+jupyterlab = ">=4.6.4,<5"
+
+[pypi-dependencies]
+matplotlib = ">=3.8, <4"
+tinyda = { git = "https://github.com/louisekluge/tinyDA", tag = "v0.1-variance-reduction" }
