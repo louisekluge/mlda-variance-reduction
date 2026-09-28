@@ -45,11 +45,11 @@ but ray is not an install requirement, so a plain `pip install tinyda` fails on 
 ## TODO
 
 - [ ] Multi-seed (5–10) SE curves with median and IQR band, plus a bias check of the
-      state-paired estimator against a proper reference.
+      state-paired estimator against a proper reference
 - [ ] Decide on the Q definition: evaluate on the fine grid at every level, or keep the
-      per-level grid and explain the artifact.
-- [ ] Autocorrelation pre-run to set the subsampling rate properly — the original
-      recommends this and then doesn't do it.
-- [ ] Demo run with `randomize_subchain_length` on vs. off, reporting ESS.
+      per-level grid, explain the artifact
+- [ ] Autocorrelation pre-run to set the subsampling rate properly — pymc3 tutorial
+      recommends this
+- [ ] Demo run with `randomize_subchain_length` on vs. off, reporting ESS
 - [ ] Resolve or document the `AdaptiveMetropolis` anomaly (frozen chains, ESS ≈ 6, while
-      `GaussianRandomWalk(adaptive=True)` behaves normally).
+      `GaussianRandomWalk(adaptive=True)` behaves normally)
