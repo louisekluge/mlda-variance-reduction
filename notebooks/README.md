@@ -4,7 +4,10 @@ Run them in order; each is self-contained and takes a few minutes.
 
 | Notebook | Key insights |
 |---|---|
-| `01_linear_regression_variance_reduction.ipynb` | The full replication: three-level hierarchy, MLDA sampling, and the standard vs. variance-reduction estimators. |
+| `00_mlda_variance_reduction.ipynb` | introducing multilevel sampling, randomized subchain lengths and estimators |
+| `01_linear_regression_variance_reduction.ipynb` | three-level hierarchy, MLDA sampling, standard vs. variance-reduction estimators |
+| `02_predator_prey_variance_reduction.ipynb` | three-level hierarchy, replicating the variance reduction figure from Lykkegaard 2023|
+| `03_linear_elasticity.ipynb` | exploration of hierarchical delayed acceptance using surrogates |
 
 ## 01 — Linear regression
 
